@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sholo Guti Game</title>
+    <script src="https://cjrtnc.leaningtech.com/loader.js"></script>
+</head>
+<body style="text-align: center; background-color: #222; color: white; margin-top: 50px;">
+    <h2>১৬ গুটি খেলা (Sholo Guti)</h2>
+    <div id="app" style="width: 800px; height: 600px; margin: auto; border: 2px solid #555;"></div>
+    <script>
+        async function runGame() {
+            await cheerpjInit();
+            await cheerpjRunJar("/app/shologutii3-1.0-SNAPSHOT.jar");
+        }
+        window.addEventListener('load', runGame);
+    </script>
+</body>
+</html>
